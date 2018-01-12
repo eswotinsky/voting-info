@@ -3,7 +3,7 @@ $(document).ready(function() {
   if (age<21){
     $('#under21').show();
   }
-  else {
+  else if (age>=21) {
     $('#over21').show();
   }
 
